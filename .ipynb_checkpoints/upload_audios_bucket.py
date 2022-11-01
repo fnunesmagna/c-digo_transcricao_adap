@@ -19,3 +19,5 @@ for root, dirs, files in os.walk('/home/nunesfi/Área de Trabalho/Magna/Projetos
         source_file_name = root + "/" + new_file
         blob = bucket.blob(new_file)
         blob.upload_from_filename(root + "/" + name)
+
+#teste

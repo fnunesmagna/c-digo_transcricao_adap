@@ -80,3 +80,5 @@ response = operation.result(timeout=10000)
 
 for result in response.results:
     print(u"{}".format(result.alternatives[0].transcript))
+
+#teste

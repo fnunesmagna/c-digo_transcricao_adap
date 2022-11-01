@@ -16,3 +16,4 @@ blobs = list(client.list_blobs(bucket, fields="items(name)"))
 
 for blob in blobs:
     print(blob)
+    #teste
